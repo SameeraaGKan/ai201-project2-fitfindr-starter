@@ -11,6 +11,7 @@ A multi-tool AI agent that helps you find secondhand pieces and figure out how t
 python -m venv .venv
 source .venv/bin/activate        # Mac/Linux
 source .venv/Scripts/activate    # Windows (Git Bash)
+.venv\Scripts\activate           # Command Prompt
 
 # 2. Install dependencies
 pip install -r requirements.txt

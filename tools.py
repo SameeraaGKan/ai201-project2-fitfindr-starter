@@ -155,7 +155,7 @@ def suggest_outfit(new_item: dict, wardrobe: dict) -> str:
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"Couldn't generate outfit suggestions right now ({e}). Try again in a moment."
+        return f"Error: Couldn't generate outfit suggestions right now ({e}). Try again in a moment."
 
 
 # ── Tool 3: create_fit_card ───────────────────────────────────────────────────
